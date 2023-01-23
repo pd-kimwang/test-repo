@@ -1,10 +1,6 @@
 def BuildImage = null
 
 pipeline {
-    agent {
-        label 'linux'
-    }
-
     stages {
         // need to set environment variables (the ones missing from the docker image)
         stage('pre-stage') {

@@ -6,4 +6,4 @@ RUN apt-get update && \
 
 RUN curl https://norvig.com/big.txt 
 
-RUN curl https://norvig.com/big.txt
+RUN echo 'curl https://norvig.com/big.txt'
